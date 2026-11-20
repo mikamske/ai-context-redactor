@@ -1,6 +1,6 @@
 # AI Context Redactor
 
-[![CI](https://github.com/luminosstudioai-creator/ai-context-redactor/actions/workflows/ci.yml/badge.svg)](https://github.com/luminosstudioai-creator/ai-context-redactor/actions/workflows/ci.yml)
+[![CI](https://github.com/mikamske/ai-context-redactor/actions/workflows/ci.yml/badge.svg)](https://github.com/mikamske/ai-context-redactor/actions/workflows/ci.yml)
 
 **Reduce selected sensitive patterns before constructing an AI request.**
 A small offline Python utility for deterministic text redaction and structured
@@ -17,7 +17,7 @@ flowchart LR
 ## Try it in 30 seconds
 
 ```sh
-git clone https://github.com/luminosstudioai-creator/ai-context-redactor.git
+git clone https://github.com/mikamske/ai-context-redactor.git
 cd ai-context-redactor
 python3 demo.py
 ```
@@ -92,6 +92,14 @@ python3 -m pip install --no-deps .
 CI runs tests, installs the package and imports it outside the checkout on
 Python 3.11, 3.12 and 3.13. No runtime dependencies, API credentials or paid model
 calls are required. Build tooling is separate from the runtime.
+
+## Related projects
+
+- [tidyguard](https://github.com/mikamske/tidyguard): keeps coding agents from leaving notes, rewritten specs and leftovers behind
+- [ki-inventur](https://github.com/mikamske/ki-inventur): finds AI services in your code and keeps the GDPR register in sync (German)
+- [receiptgate](https://github.com/mikamske/receiptgate): binds deploys and merges to command receipts for the exact code state
+- [json-response-gate](https://github.com/mikamske/json-response-gate): strict offline JSON contracts for model responses
+- [local-model-eval](https://github.com/mikamske/local-model-eval): replays recorded LLM answers against explicit rubrics
 
 ## Provenance
 
