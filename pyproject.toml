@@ -13,7 +13,7 @@ authors = [{name = "Mika Mischke"}]
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/luminosstudioai-creator/ai-context-redactor"
+Repository = "https://github.com/mikamske/ai-context-redactor"
 
 [tool.setuptools]
 py-modules = ["redactor"]
